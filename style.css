@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+
+}
+
+/* header */
+
+#header{
+    background-image: repeating-linear-gradient(to bottom, rgb(224, 24, 24) 0, rgb(124, 8, 28) 28%);
+    height: 200px;
+}
+
+/*section */
+.section{
+    background-color: #9999;
+}
+
+.content-login{
+    padding: 20px 0;
+}
+
+.content{
+    display:  flex;
+}
+
+.sidebar{
+    flex:1;
+    background: #7B9D9F;
+}
+.nav-link{
+   color: #fff;
+}
+.nav-link:hover{
+   
+    color: black;
+}
+
+.main{
+    flex: 4;
+}
+
+.main-menu{
+    background-color: #0dcaf0;
+}
+
+.main-content{
+    margin: 10px 0;
+}
+
+.table{
+    background-color: #fff;
+}
+
+.form-datetime{
+    display: flex;
+}
+
+.datetime-lable{
+    margin: 6px;
+}
+.datetime{
+    width: 100px;
+    margin: 0 8px;
+}
+
+.loc-ngay{
+    display: flex;
+    justify-content: center;
+}
+
+.col-fill{
+    margin: 10px 0;
+}
+
+.select-all {
+    margin: 0 0 0 40px;
+}
+
+
+
+
+
+.form-login{
+    width: 30%;
+    margin:  auto;
+    border-radius: 10px;
+    background-color: #fff;
+   
+}
+.form-check{
+    padding: 0;
+}
+
+.form-head{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.form-title{
+    color: rgb(156, 13, 37);
+}
+
+.form-info{
+    margin: 10px 0;
+    font-weight: 500;
+    color: rgb(156, 13, 37);
+
+}
+
+.lable-input{
+    font-weight: 700;
+}
+
+.form-main{
+    margin: 0 16px;
+}
+
+.form-check{
+    margin: 0 26px;
+}
+
+.form-button{
+    text-align: center;
+    margin: 10px auto 0 auto;
+}
+
+.btn-login{
+    margin-bottom: 10px;
+    background: rgb(156, 13, 37);
+}
+
+.btn-login:hover{
+    background: rgb(206, 32, 61); ;
+}
+
+.form-control{
+    margin: 6px 0;
+}
+
+.table-striped{
+    text-align: center;
+}
+
+.fa-solid{
+    padding:  0 10px;
+}
+
+.select-all {
+    margin: 0 0 0 40px;
+}
+th{
+    padding: 16px 8px;
+}
+
+/* footer */
+#footer{
+    background:  #0dcaf0 ;
+    height: 130px;
+}
